@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:description" content="Website Tugas Pertemuan Ketiga"/> 
+    <meta property="og:image" content="./assets/img/2020-10-16.PNG" />
+    <link rel='shortcut icon' type='image/x-icon' href='./assets/favicon/favicon.ico' />
+    <title>Tugas 2 | Pirmansyah</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="jumbotron">
+            <h1 class="text-banner uppercase">Coronavirus</h1>
+            <h3 class="text-banner">Update Data Corona Virus</h3>
+        </div>
+        <nav>
+            <ul>
+                <li><a class="uppercase nav-link" title="Home" href="#">Home</a></li>
+                <li><a class="uppercase nav-link" title="FAQ" href="./faq.html">Faq</a></li>
+                <li><a class="uppercase nav-link" title="About" href="./about.html">About</a></li>
+                <li><a class="uppercase nav-link" title="Rujukan" href="./rujukan.html">Rujukan</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="content">
+            <article class="landing">
+                <h2>Apa itu Novel Coronavirus (2019-nCoV)?</h2>
+                <section class="paragraf-pertama">
+                    <p>Novel coronavirus (2019-nCoV) adalah jenis baru coronavirus yang belum pernah diidentifikasi sebelumnya pada manusia. Coronavirus merupakan keluarga besar virus yang menyebabkan penyakit pada manusia dan hewan. Pada manusia menyebabkan penyakit mulai flu biasa hingga penyakit yang serius seperti Middle East Respiratory Syndrome (MERS) dan Sindrom Pernapasan Akut Berat/ Severe Acute Respiratory Syndrome (SARS).</p>
+                    <p>
+                        Pada 11 Februari 2020, World Health Organization (WHO) mengumumkan nama penyakit yang disebabkan 2019-nCov, yaitu Coronavirus Disease (COVID-19).
+                    </p>
+                </section>
+                <section class="gambar">
+                    <img src="./assets/img/img-landing.svg" class="img-responsive" alt="">
+                </section>
+            </article>
+            <article id="data" class="data">
+                <div class="warning-banner text-center">
+                   <p>⚠️ Pengumuman</p> 
+                   <p>Level kewaspadaan Jabar kini mengikuti zonasi dari Pemerintah Pusat. Lihat peta risiko di sini!</p> 
+                </div>
+                <h2 class="text-center">Data Kasus COVID-19 di Indonesia</h2>
+                <div id="data-covid" class="container-flex-col">
+                    <section class="container-flex-row">
+                        <div class="box-data total-bg">
+                            <h3>Total Kasus</h3>
+                            <a href="#!"><i class="fas fa-ambulance fa-2x total"></i></a>
+                            <div id="total"></div>
+                        </div>
+                        <div class="box-data perawatan-bg">
+                            <h3>Dalam Perawatan</h3>
+                            <a href="#!"><i class="fas fa-plus-square fa-2x perawatan"></i></a>
+                            <div id="perawatan"></div>
+                        </div>
+                    </section>
+                    <section class="container-flex-row">
+                        <div class="box-data sembuh-bg">
+                            <h3>Total Sembuh</h3>
+                            <a href="#!"><i class="fas fa-smile-beam fa-2x sembuh"></i></a>
+                            <div id="sembuh"></div>
+                        </div>
+                        <div class="box-data meninggal-bg">
+                            <h3>Meninggal</h3>
+                            <a href="#!"><i class="fas fa-sad-tear fa-2x meninggal"></i></a>
+                            <div id="meninggal"></div>
+                        </div>
+                    </section>
+                </div>
+                <div class="box-source text-center">
+                    <p>Sumber: <span><a href="https://indonesia-covid-19.mathdro.id/api/">https://indonesia-covid-19.mathdro.id/api/</a></span></p>
+                </div>
+            </article>
+        </div>
+    </main>
+    <footer>
+        <blockquote>Man Jadda Wajada</blockquote>
+        <p>
+            <span role="img" aria-label="Author of the website">👩‍💻</span>
+            <a href="https://www.pirmansyah.space">Pirmansyah</a> | 
+            <span role="img" aria-label="Source code">📝</span> 
+            <a href="#">Github</a>
+        </p>
+    </footer>
+    <script src="./assets/js/data_covid.js"></script>
+</body>
+</html>

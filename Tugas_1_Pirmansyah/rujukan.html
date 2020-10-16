@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:description" content="Website Tugas Pertemuan Ketiga"/> 
+    <meta property="og:image" content="./assets/img/2020-10-16.PNG" />
+    <link rel='shortcut icon' type='image/x-icon' href='./assets/favicon/favicon.ico' />
+    <title>Tugas 2 | Pirmansyah </title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="jumbotron-rs">
+            <h1 class="text-banner uppercase rs-banner-text">Kontak Rumah Sakit dan Call Center</h1>
+            <h3 class="text-banner rs-banner-text">Informasi dan nomor alamat rumah sakit yang menjadi rujukan pemeriksaan gejala COVID-19</h3>
+        </div>
+        <nav>
+            <ul>
+                <li><a class="uppercase nav-link" title="Home" href="./index.html">Home</a></li>
+                <li><a class="uppercase nav-link" title="FAQ" href="./faq.html">Faq</a></li>
+                <li><a class="uppercase nav-link" title="About" href="./about.html">About</a></li>
+                <li><a class="uppercase nav-link" title="Rujukan" href="#">Rujukan</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="content">
+            <articles>
+                <section class="box-content">
+                    <img class="img-responsive" src="./assets/img/health_.svg" alt="Image Banner">
+                    <h2>Daftar Rumah Sakit Rujukan</h2>
+                    <p>Berikut ini adalah rumah sakit yang menjadi rujukan untuk pasien dengan status Pasien dalam Pengawasan. Anda harus mengunjungi fasilitas kesehatan terdekat terlebih dahulu seperti klinik/rumah sakit umum sebelum akhirnya dapat dirujuk ke rumah sakit di bawah ini.</p>
+                </section>
+            </articles>
+            <table>
+                <caption>Daftar Rumah SAKIT</caption>
+                <thead>
+                  <tr>
+                    <th scope="col">No</th>
+                    <th scope="col">Nama RS</th>
+                    <th scope="col">Alamat</th>
+                    <th scope="col">Kota</th>
+                    <th scope="col">Phone</th>
+                    <th scope="col">Provinsi</th>
+                  </tr>
+                </thead>
+                <tbody id="table">
+                </tbody>
+              </table>
+        </div>
+    </main>
+    <footer>
+        <blockquote>Man Jadda Wajada</blockquote>
+        <p>
+            <span role="img" aria-label="Author of the website">👩‍💻</span>
+            <a href="https://www.pirmansyah.space">Pirmansyah</a> | 
+            <span role="img" aria-label="Source code">📝</span> 
+            <a href="#">Github</a>
+        </p>
+    </footer>
+    <script src="./assets/js/data_rs_rujukan.js"></script>
+</body>
+</html>
