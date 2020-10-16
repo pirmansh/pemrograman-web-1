@@ -37,6 +37,10 @@ p, li{
     color:  #555;
     font-family: 'Ubuntu', sans-serif;
 }
+a{
+    color: #0099ff;
+    text-decoration: none;
+}
 table {
     border: 1px solid #ccc;
     border-collapse: collapse;
@@ -73,7 +77,7 @@ footer{
     color: #555;
     font-size: 0.9rem;
     text-align: center;
-    background: #F8F8F8;  /* fallback for old browsers */
+    background: #F8F8F8;  
     border-top: 1px solid #f1f1f1;
 }
 footer blockquote {
@@ -84,7 +88,7 @@ footer blockquote {
 footer a {
     color: #555;
     text-decoration: none;
-    border-bottom: 2px solid currentColor;
+    border-bottom: 2px solid;
 }
 .jumbotron .text-banner{
     color: #f5f5f5;
@@ -274,6 +278,12 @@ footer a {
 }
     .jumbotron h1{
         font-size: 2em;
+    }
+    .jumbotron-rs h1{
+        font-size: 2em;
+    }
+    .jumbotron-rs h3{
+        font-size: 1em;
     }
 }
 
