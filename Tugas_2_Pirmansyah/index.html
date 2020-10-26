@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas | Pirmansyah</title>
+    <link rel="stylesheet" href="./main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="form form-produk">
+                    <div class="form-heading">MASTER PRODUK</div>
+                    <form autocomplete="off">
+                    <label for="kode-produk"><span>Kode Produk</span><input type="text" class="input-field" name="kode-produk" id="kode-produk"/></label>
+                    <label for="nama-produk"><span>Nama Produk</span><input type="text" class="input-field" name="nama-produk" id="nama-produk"/></label>    
+                    <label for="merk"><span>Merk</span><input type="text" class="input-field" name="merk" id="merk"/></label>  
+                    <label for="harga-produk"><span>Harga Produk</span><input type="number" class="input-field" name="harga-produk" id="harga-produk"/></label>  
+                    <label for="volume-produk"><span>Volume Produk</span><input type="number" class="input-field" name="volume-produk" id="volume-produk"/></label>  
+                    <label for="status-produk"><span>Status Produk</span><select name="status-produk" id="status-produk" class="select-field">
+                        <option disabled selected value> -- pilih status -- </option>
+                        <option>AKTIF</option>
+                        <option>TIDAK AKTIF</option>
+                        </select></label>              
+                    <div class="button">
+                        <button type="submit" id="simpan-data" class="btn btn-simpan-data">SIMPAN DATA</button>
+                        <button type="submit" id="data-baru" class="btn btn-data-baru">DATA BARU</button>
+                    </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form form-produk-2">
+                    <div class="form-heading">MASTER PRODUK</div>
+                    <form>
+                    <label for="show-kode-prod"><span>Kode Produk</span><input type="text" class="input-field-2" id="show-kode-prod"/></label>
+                    <label for="show-nama-prod"><span>Nama Produk</span><input type="text" class="input-field-2" id="show-nama-prod"/></label>    
+                    <label for="show-merk"><span>Merk</span><input type="text" class="input-field-2" id="show-merk"/></label>  
+                    <label for="show-harga-prod"><span>Harga Produk</span><input type="number" class="input-field-2" id="show-harga-prod"/></label>  
+                    <label for="show-volume-prod"><span>Volume Produk</span><input type="number" class="input-field-2" id="show-volume-prod"/></label>  
+                    <label for="show-status-prod"><span>Status Produk</span><input type="text" class="input-field-2" id="show-status-prod"/></label>                
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>

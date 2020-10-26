@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    overflow: auto;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.col{
+    margin: 10px auto;
+}
+.form{
+    padding: 20px 30px;
+    overflow: auto;
+    border-radius: 8px;
+}
+.form-produk{
+    border: 1px solid rgb(224, 224, 224);
+}
+.form-heading{
+	font-weight: bold;
+	margin-bottom: 20px;
+	font-size: 18px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+.form label{
+	display: block;
+	margin: 0px 0px 15px 0px;
+}
+.form label > span{
+	width: 150px;
+	float: left;
+	padding-top: 8px;
+	padding-right: 5px;
+}
+.form input.input-field, .form .select-field{
+	width: 225px;	
+}
+.form input.input-field,
+.form .select-field{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border: 1px solid  #a8a8a85e;
+	box-shadow: 1px 1px 4px #EBEBEB;
+	-moz-box-shadow: 1px 1px 4px #EBEBEB;
+	-webkit-box-shadow: 1px 1px 4px #EBEBEB;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	padding: 7px;
+	outline: none;
+}
+.form .input-field:focus,
+.form .select-field:focus{
+	border: 1px solid #74b9ff;
+}
+.form input.input-field-2{
+	width: 225px;	
+}
+.form input.input-field-2{
+    box-sizing: border-box;
+    padding: 7px;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #a8a8a85e;
+}
+.form .input-field-2:focus{
+	border-color: #74b9ff;
+}
+.button{
+    float: right;
+    font-weight: bold;
+}
+.btn{
+	border: none;
+	padding: 8px 15px 8px 15px;
+	color: #fff;
+	box-shadow: 1px 1px 4px #DADADA;
+	-moz-box-shadow: 1px 1px 4px #DADADA;
+	-webkit-box-shadow: 1px 1px 4px #DADADA;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    
+}
+.btn-simpan-data{
+    background-color:#74b9ff ;
+}
+.btn-data-baru{
+    background-color: #fdcb6e;
+}
+.btn-simpan-data:hover{
+    background-color:#49a4ff ;
+}
+.btn-data-baru:hover{
+    background-color: #fcbd48;
+}
+#show-harga-prod, #show-volume-prod{
+    text-align: end;
+}
+
+@media screen and (max-width: 600px) {
+    .row{
+        flex-direction: column;
+    }
+    .button{
+        float: left;
+    }
+    .form-produk{
+        border: none;
+    }
+}
