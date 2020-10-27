@@ -4,6 +4,7 @@
 
 1. [Latihan 1](https://pirmansh.github.io/pemrograman-web-1/Latihan-1/)
 2. [Tugas 1 (Pertemuan Ketiga)](https://pirmansh.github.io/pemrograman-web-1/Tugas_1_Pirmansyah/)
+3. [Tugas 2 (Pertemuan Keempat)](https://pirmansh.github.io/pemrograman-web-1/Tugas_2_Pirmansyah/)
 
 
 
